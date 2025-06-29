@@ -67,6 +67,13 @@ body {
   font-size: 1.3em;
   font-weight: bold;
   margin: 12px 0 10px 0;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.title:hover {
+  color: #f4d04e;
 }
 
 .desc {
@@ -83,7 +90,7 @@ body {
 }
 
 .text-author {
-  color: #222;
+  color: black;
 }
 
 .avatar {
@@ -95,44 +102,3 @@ body {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
-/* ...existing code... */
-
-@media screen and (max-width: 768px) {
-  .container {
-    padding: 32px 8px;
-    display: block;
-  }
-
-  .card {
-    width: 100%;
-    max-width: 420px;
-    margin: 0 auto;
-    box-shadow: 6px 6px 0 #000;
-    border-radius: 14px;
-    padding-bottom: 16px;
-  }
-
-  .card-imgd {
-    padding: 16px 16px 0;
-  }
-
-  .card-img {
-    height: auto;
-    border-radius: 14px;
-  }
-
-  .card-body {
-    padding: 18px;
-  }
-
-  .title {
-    font-size: 1.15em;
-  }
-
-  .desc {
-    font-size: 0.98em;
-  }
-}
-
-/* ...existing code... */
