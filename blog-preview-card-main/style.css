@@ -74,6 +74,7 @@ body {
 
 .title:hover {
   color: #f4d04e;
+cursor: pointer;
 }
 
 .desc {
@@ -89,16 +90,18 @@ body {
   margin-top: 10px;
 }
 
-.text-author {
-  color: black;
-}
-
 .avatar {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  border: 1.5px solid #222;
+  border: 1.5px solid;
+}
+
+.text-author {
+  color: black;
+  font-weight: 1000;
 }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
