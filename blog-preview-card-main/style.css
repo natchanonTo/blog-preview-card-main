@@ -95,6 +95,7 @@ cursor: pointer;
   height: 32px;
   border-radius: 50%;
   border: 1.5px solid;
+  border-style: none;
 }
 
 .text-author {
